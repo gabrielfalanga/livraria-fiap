@@ -15,4 +15,9 @@ public class Livro {
 
     // --- MÉTODOS ---
 
+    public String exibirDados(){
+        return "Meu livro favorito é: " + titulo + ";\nSeu autor é: "
+                + autor + ";\nSeu preço é: R$"
+                + valor + ".";
+    }
 }
