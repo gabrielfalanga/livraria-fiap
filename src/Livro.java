@@ -19,7 +19,7 @@ public class Livro {
                 "\nTítulo: " + this.titulo +
                 "\nAutor: " + this.autor +
                 "\nPreço: R$" + this.valor +
-                "\nEditora: " + this.editora +
+                "\nEditora: " + this.editora.nome +
                 "\nPáginas: " + this.paginas +
                 "\nResumo: " + this.resumo +
                 "\nTipo de Capa: " + this.tipoCapa;
