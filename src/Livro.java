@@ -7,7 +7,7 @@ public class Livro {
     public String titulo;
     public String autor;
     public double valor;
-    public String editora;
+    public Editora editora;
     public int paginas;
     public String resumo;
     public String tipoCapa;
@@ -23,5 +23,11 @@ public class Livro {
                 "\nPáginas: " + this.paginas +
                 "\nResumo: " + this.resumo +
                 "\nTipo de Capa: " + this.tipoCapa;
+    }
+
+    // <--- método construtor --->   pode ter mais de um
+
+    public Livro(String titulo){
+        this.titulo = titulo;
     }
 }
