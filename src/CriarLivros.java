@@ -9,21 +9,23 @@ public class CriarLivros {
         Livro favorito = new Livro();
         favorito.titulo = "O Hobbit";
         favorito.autor = "J. R. R. Talkien";
-        favorito.valor = 37.27;
-//        favorito.editora = "Harper Collins";
-//        favorito.resumo = "Bilbo era um dos...";
-//        favorito.tipoCapa = "COMUM";
+        favorito.valor = 30.90;
+        favorito.editora = "Thomas Nelson";
+        favorito.paginas = 400;
+        favorito.resumo = "Bilbo era um dos...";
+        favorito.tipoCapa = "COMUM";
 
         System.out.println(favorito.exibirDados());
-
-        System.out.println("------------------------");
 
         Livro meuLivro = new Livro();
         meuLivro.titulo = "Harry Potter e a Pedra Filosofal";
         meuLivro.autor = "J. K. Rowling";
-        meuLivro.valor = 58.98;
+        meuLivro.valor = 44.70;
+        meuLivro.editora = "Rocco";
+        meuLivro.paginas = 264;
+        meuLivro.resumo = "Harry Potter... ";
+        meuLivro.tipoCapa = "DURA";
 
         System.out.println(meuLivro.exibirDados());
-
     }
 }

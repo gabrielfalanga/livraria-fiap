@@ -2,7 +2,7 @@
 
 public class Livro {
 
-    // --- ATRIBUTOS ---
+    // <--- ATRIBUTOS --->
     //+ (public) TipoDeDado nomeAtributoOuVariavel
     public String titulo;
     public String autor;
@@ -12,12 +12,16 @@ public class Livro {
     public String resumo;
     public String tipoCapa;
 
-
-    // --- MÉTODOS ---
+    // <--- MÉTODOS --->
 
     public String exibirDados(){
-        return "Meu livro favorito é: " + titulo + ";\nSeu autor é: "
-                + autor + ";\nSeu preço é: R$"
-                + valor + ".";
+        return "-------------------------" +
+                "\nTítulo: " + this.titulo +
+                "\nAutor: " + this.autor +
+                "\nPreço: R$" + this.valor +
+                "\nEditora: " + this.editora +
+                "\nPáginas: " + this.paginas +
+                "\nResumo: " + this.resumo +
+                "\nTipo de Capa: " + this.tipoCapa;
     }
 }
